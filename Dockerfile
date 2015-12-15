@@ -16,7 +16,7 @@ ENV ORACLE_JAVA_HOME /usr/lib/jvm/java-1.8.0-openjdk
 
 
 
-RUN yum update -y && yum install -y curl unzip tar openssh-server java-1.8.0-openjdk-devel ant mysql-server mysql mysql-connector-java python-jinja2 python-pip
+RUN yum update -y && yum install -y nano curl unzip tar openssh-server java-1.8.0-openjdk-devel ant mysql-server mysql mysql-connector-java python-jinja2 python-pip
 RUN pip install j2cli
 
 
