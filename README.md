@@ -8,12 +8,12 @@ Welcome to opengts docker container which installed on fedora based container .
 How to use:
 
 - install docker
-- docker pull m4tux/mysql
+- docker pull mysql
 - docker pull m4tux/opengts
 
 Start mysql and set the root password:
 
-docker run --name opengts_mysql -e MYSQL_ROOT_PASSWORD=GtsSecretPassword -d m4tux/mysql
+docker run --name opengts_mysql -e MYSQL_ROOT_PASSWORD=GtsSecretPassword -d mysql
 
 Start opengts and link to mysql database:
 
