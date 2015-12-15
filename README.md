@@ -8,8 +8,8 @@ Welcome to opengts docker container which installed on fedora based container .
 How to use:
 
 - install docker
-- docker pull mysql
-- docker pull mcsaky/opengts
+- docker pull m4tux/mysql
+- docker pull m4tux/opengts
 
 Start mysql and set the root password:
 
