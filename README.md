@@ -13,11 +13,11 @@ How to use:
 
 Start mysql and set the root password:
 
-docker run --name opengts_mysql -e MYSQL_ROOT_PASSWORD=GtsSecretPassword -d mysql
+docker run --name opengts_mysql -e MYSQL_ROOT_PASSWORD=GtsSecretPassword -d m4tux/mysql
 
 Start opengts and link to mysql database:
 
-docker run -it  -p 8080:8080  --name opengts --link opengts_mysql:mysql  mcsaky/opengts
+docker run -it  -p 8080:8080 -p 8022:22 --name opengts --link opengts_mysql:mysql  m4tux/opengts
 
 After tomcat started, you can log to your machine on port 8080, for example:
 
