@@ -7,7 +7,7 @@ Welcome to opengts docker container which installed on fedora based container .
 
 How to use:
 
-- install docker
+- install docker ( yum install docker on rpm based linux , apt-get install docker on debian based linux )
 - docker pull mysql
 - docker pull m4tux/opengts
 
